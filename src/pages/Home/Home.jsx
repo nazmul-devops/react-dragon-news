@@ -1,16 +1,16 @@
 import Header from "../shared/Header/Header";
-import LatestNews from "../shared/LatestNews/LatestNews";
 import LeftSideNav from "../shared/LeftSideNav/LeftSideNav";
 import Navbar from "../shared/Navbar/Navbar";
 import RightSideNav from "../shared/RightSideNav/RightSideNav";
+import LatestNews from "./LatestNews";
 
 const Home = () => {
   return (
-    <div>
+    <div className="mx-5">
       <Header></Header>
       <LatestNews></LatestNews>
       <Navbar></Navbar>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-6">
         <div>
           <LeftSideNav></LeftSideNav>
         </div>
